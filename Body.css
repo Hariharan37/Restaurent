@@ -1,0 +1,146 @@
+.About{
+  padding-top: 8px;
+  display: grid;
+  grid-template-columns: 940px 1fr;
+}
+.pic-info1{
+  width: 500px;
+  height: 300px;
+  margin-left: 30px;
+}
+.foodpic{
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 5px;
+  margin-right: 10px;
+  transition: box-shadow 0.3s;
+  border-radius: 30px;
+}
+.foodpic:hover,
+.foodpic1:hover{
+  background: linear-gradient(45deg,#ff0711,#ffab65,#ff0099,#4cff67);
+  
+}
+.About-details{
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+.detail1{
+  display: grid;
+  grid-template-columns: 1fr 940px;
+  padding-top: 10px;
+}
+.pic-info2{
+  width: 500px;
+  height: 300px;
+}
+.foodpic1{
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 5px;
+  margin-left: 10px;
+  transition: box-shadow 0.3s;
+  border-radius: 30px;
+}
+.Special{
+  font-size: 30px;
+  border-width: 5px;
+  border-style: solid;
+  width: 150px;
+  padding: 8px 10px;
+  border-radius: 30px;
+}
+.special-box{
+  display: flex;
+  justify-content: center;
+}
+.pic1{
+  width: 260px;
+  height: 260px;
+  
+}
+.sp-pic{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25px;
+  transition: width 0.15s;
+  transition: height 0.15s;
+  transition: box-shadow 0.15s;
+}
+.sp-pic:hover{
+  width: 255px;
+  height: 255px;
+  box-shadow: 0 0 5px;
+}
+.sp-items{
+  display: flex;
+  justify-content: center;  
+}
+
+.grid{
+  width: 800px;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 50px;
+  margin-left: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.BookTable{
+  font-size: 35px;
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+.enter{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  transition: box-shadow 0.2s;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.enter:hover{
+  box-shadow: inset 0 0 2px;
+}
+.enter::placeholder{
+  font-family: 'Fasthand', cursive;
+  font-size: 16px; 
+}
+.nameandcontact{
+  display: flex;
+  justify-content: center;
+}
+.name{
+  margin-right: 15px;
+}
+.Book{
+  font-family: 'Fasthand', cursive;
+  cursor: pointer;
+  width: 65px;
+  font-size: 18px;
+  border-radius: 35px;
+  padding: 2px 8px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-width: 1px;
+  border-style: solid;
+  transition: opacity 0.3s;
+}
+.Book:hover{
+  opacity: 0.7;
+}
+.book-container{
+  display: flex;
+  justify-content: center;
+}
